@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+<meta charset ="UTF-8"> 
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link>
+<link rel="stylesheet" href="olx.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <title> OLX </title>
+    </head>
+        <body>
+<div class="header">
+    <div class="navbar">
+        <img src="/images/olxlogo.png" >
+        <div class="select_country" id="country">
+            <div class="select" >
+                <p> Select your Country</p>
+                <i class="fa-solid fa-chevron-down" id="moving"></i>
+             </div>   
+            <ul class="option_box" id="list">
+    <li class= "option" onclick="myfunction ('USA')"> 
+        <i class="fa-sharp fa-solid fa-location-pin"></i>
+        <p>USA</p>
+    </li>
+    <li class= "option" onclick="myfunction('China')"> 
+        <i class="fa-sharp fa-solid fa-location-pin"></i>
+        <p>China</p>
+    </li>
+    <li class= "option" onclick="myfunction('Germany')"> 
+        <i class="fa-sharp fa-solid fa-location-pin"></i>
+        <p> Germany</p>
+    </li>
+    <li class= "option" onclick="myfunction('UK')"> 
+        <i class="fa-sharp fa-solid fa-location-pin"></i>
+        <p>UK</p>
+    </li>
+    <li class= "option" onclick="myfunction('Pakistan')"> 
+        <i class="fa-sharp fa-solid fa-location-pin"></i>
+        <p>Pakistan</p>
+    </li>
+            </ul>  
+        </div>
+    
+    
+        
+        <div class="search_box">
+            <input type="text"class="searchclass" id="searchid" placeholder="Find cars, phones, household and what not!">
+            <p><i class="fa-solid fa-magnifying-glass"></i></p>
+            
+    
+    </div>
+    
+    <div class="language" id="language">
+        <div class="select_1" >
+            <p id="eng_tag"> Select your Language</p>
+            <i class="fa-solid fa-chevron-down" id="moving_1"></i>
+        </div> 
+         
+        <ul class="option_box_1" id="list_1">
+    
+    <li class="option_1" onclick="languageolx('English')"> <p >English</p></li>
+        
+    <li  class="option_1" onclick="languageolx('Urdu')"> <p> Urdu </p></li>
+    
+        </ul> 
+     
+    </div>
+    
+    
+    
+    <div class="message">
+        <i class="fa-regular fa-comment"></i>
+        <i class="fa-solid fa-bell"></i>
+    </div>
+    <div class="your logo">
+    <div class="girl_image" id="girl_image_id">
+        <img src="/images/JDBS4497.JPG">
+    </div>
+    <div class="dropdown" id="dropdown_id">
+        <div class="nameandimage">
+            <img src="/images/JDBS4497.JPG">
+            <p>Faiza Iqbal</p>
+        </div>
+      <ul>
+        <li>
+            <i class="fa-solid fa-user"></i>
+            <p>My Account</p>
+        </li>
+        <li>
+            <i class="fa-solid fa-box"></i>
+            <p>My orders </p>
+        </li>
+      
+        <li>
+            <i class="fa-solid fa-circle-question"></i>
+              <p> QUESTION </p>
+          </li>
+        <li>
+          <i class="fa-solid fa-gear"></i>
+            <p>SETTINGS</p>
+        </li>
+        <hr>
+        <li>
+            <i class="fa-solid fa-right-from-bracket"></i>
+              <p>LOGOUT</p>
+          </li>
+    
+      </ul>
+    </div>
+    
+    </div>
+    <div class="selling_page">
+        <button><i class="fa-solid fa-plus"><p>SELL</p></i> </button>
+    </div>
+    </div>
+</div>
+   <div class="adimage">
+    <img src="/images/ad1.jpg" >
+    <i class="fa-solid fa-xmark" id="ad_1"></i>
+   </div>
+   <div class="product">
+    <div class="First_row">
+        <div class="box">
+            <a href="produc_olx.html">
+                <img src="/images/c1.jfif">
+                <h2>3500</h2>
+                <p>Stick</p>
+                <div class="addres_data">
+                    <p>Bandra East, Bamberg</p>
+                    <p>Today</p>
+                </div>
+            </a>
+        </div>
+        <div class="box">
+            <img src="/images/c2.webp">
+            <h2> ₹4800 </h2>
+            <p> xbox one s</p>
+            <div class="addres_data">
+                <p>CHEMBUR, MUMBAI</p>
+                <p> JUL 27</p>
+            </div>
+        </div>
+        <div class="box">
+            <img src="/images/c3.jfif">
+            <h2> ₹7000</h2>
+            <p> Refrigerator</p>
+            <div class="addres_data">
+                <p>DHARAVI, MUMBAI</p>
+                <p> Today </p>
+            </div>
+        </div>
+        <div class="box">
+            <img src="/images/c4.jpg">
+            <h2> ₹8,00,000 </h2>
+            <p> Mitsubishi Pajero (2012) </p>
+            <div class="addres_data">
+                <p>VERSOVA, MUMBAI</p>
+                <p> Today </p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="First_row">
+        <div class="box">
+            <img src="/images/c5.jpg">
+            <h2> ₹800 </h2>
+            <p> Black Jeans for man</p>
+            <div class="addres_data">
+                <p>BORIVALI WEST, MUMBAI</p>
+                <p> DEC 24 </p>
+            </div>
+        </div>
+        <div class="box">
+            <img src="/images/c5.jpg">
+            <h2> ₹3,000 </h2>
+            <p> Pricise corrom board</p>
+            <div class="addres_data">
+                <p>IC COLONY, MUMBAI</p>
+                <p> JAN 29 </p>
+            </div>
+        </div>
+        <div class="box">
+            <img src="/images/c6.jfif">
+            <h2> ₹3,800 </h2>
+            <p> CrossBeat Torq Buds</p>
+            <div class="addres_data">
+                <p>DHARAVI, MUMBAI</p>
+                <p> Today </p>
+            </div>
+        </div>
+        <div class="box">
+            <img src="/images/c6.jfif">
+            <h2> ₹39,000 </h2>
+            <p> Nikon D7000 DSLR camera </p>
+            <div class="addres_data">
+                <p>ANDHERI WEST, MUMBAI</p>
+                <p> FEB 02 </p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="First_row">
+        <div class="box">
+            <img src="/images/JDBS4497.JPG">
+            <h2> ₹400 </h2>
+            <p> Black jacket</p>
+            <div class="addres_data">
+                <p>KANDIVALI WEST, MUMBAI</p>
+                <p> FEB 11 </p>
+            </div>
+        </div>
+        <div class="box">
+            <img src="/images/c4.jpg">
+            <h2> ₹3,400 </h2>
+            <p> LG Washing machine </p>
+            <div class="addres_data">
+                <p>SANTACRUZ EAST, MUMBAI</p>
+                <p> Today </p>
+            </div>
+        </div>
+        <div class="box">
+            <img src="/images/c5.jpg">
+            <h2> ₹700 </h2>
+            <p> Running Shoe (athletes) </p>
+            <div class="addres_data">
+                <p>BANDRA EAST, MUMBAI</p>
+                <p> FEB 25 </p>
+            </div>
+        </div>
+        <div class="box">
+            <img src="/images/c4.jpg">
+            <h2> ₹35,000 </h2>
+            <p> Antique premium teak wood Sofa set </p>
+            <div class="addres_data">
+                <p>Bandra East, Mumbai</p>
+                <p> Today </p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="First_row">
+        <div class="box">
+            <img src="/images/b7.jpg">
+            <h2> ₹3,35,000 </h2>
+            <p> Hyundai I20 (2010)</p>
+            <div class="addres_data">
+                <p>KHAR EAST, MUMBAI</p>
+                <p> JAN 14 </p>
+            </div>
+        </div>
+        <div class="box">
+            <img src="/images/b9.jfif">
+            <h2> ₹6,000 </h2>
+            <p> dining table</p>
+            <div class="addres_data">
+                <p>DADAR WEST, MUMBAI</p>
+                <p> JUN 10</p>
+            </div>
+        </div>
+        <div class="box">
+            <img src="/images/b7.jpg">
+            <h2> ₹1,200 </h2>
+            <p> Mens fastrack watch </p>
+            <div class="addres_data">
+                <p>KURLA EAST, MUMBAI</p>
+                <p> JAN 7 </p>
+            </div>
+        </div>
+        <div class="box">
+            <img src="/images/b8.jpg">
+            <h2> ₹2,100 </h2>
+            <p> Pure Metal Dumbbells</p>
+            <div class="addres_data">
+                <p>Bandra East, Mumbai</p>
+                <p> Today </p>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+
+   
+        <div class="First_row">
+            <div class="box">
+                <img src="/images/c5.jpg">
+                <h2> 35,00 </h2>
+                <p> s </p>
+                <div class="addres_data">
+                    <p>Bamberg,Germany </p>
+                    <p> FEB 02 </p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="/images/c5.jpg">
+                <h2> 35,00 </h2>
+                <p> s </p>
+                <div class="addres_data">
+                    <p>Bamberg,Germany </p>
+                    <p> FEB 02 </p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="/images/c5.jpg">
+                <h2> 35,00 </h2>
+                <p> s </p>
+                <div class="addres_data">
+                    <p>Bamberg,Germany </p>
+                    <p> FEB 02 </p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="/images/c5.jpg">
+                <h2> 35,00 </h2>
+                <p> s </p>
+                <div class="addres_data">
+                    <p>Bamberg,Germany </p>
+                    <p> FEB 02 </p>
+                </div>
+            </div>
+        </div>
+        <div class="First_row">
+            <div class="box">
+                <img src="/images/c5.jpg">
+                <h2> 35,00 </h2>
+                <p> s </p>
+                <div class="addres_data">
+                    <p>Bamberg,Germany </p>
+                    <p> FEB 02 </p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="/images/c5.jpg">
+                <h2> 35,00 </h2>
+                <p> s </p>
+                <div class="addres_data">
+                    <p>Bamberg,Germany </p>
+                    <p> FEB 02 </p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="/images/c5.jpg">
+                <h2> 35,00 </h2>
+                <p> s </p>
+                <div class="addres_data">
+                    <p>Bamberg,Germany </p>
+                    <p> FEB 02 </p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="/images/c5.jpg">
+                <h2> 35,00 </h2>
+                <p> s </p>
+                <div class="addres_data">
+                    <p>Bamberg,Germany </p>
+                    <p> FEB 02 </p>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="First_row">
+            <div class="box">
+                <img src="/images/c5.jpg">
+                <h2> 35,00 </h2>
+                <p> s </p>
+                <div class="addres_data">
+                    <p>Bamberg,Germany </p>
+                    <p> FEB 02 </p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="/images/c5.jpg">
+                <h2> 35,00 </h2>
+                <p> s </p>
+                <div class="addres_data">
+                    <p>Bamberg,Germany </p>
+                    <p> FEB 02 </p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="/images/c5.jpg">
+                <h2> 35,00 </h2>
+                <p> s </p>
+                <div class="addres_data">
+                    <p>Bamberg,Germany </p>
+                    <p> FEB 02 </p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="/images/c5.jpg">
+                <h2> 35,00 </h2>
+                <p> s </p>
+                <div class="addres_data">
+                    <p>Bamberg,Germany </p>
+                    <p> FEB 02 </p>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+</div>
+ <div class="Main_footer">
+        <div class="footer">
+            <div class="footer_box">
+                <h2>POPULAR LOCATIONS</h2>
+                <p> Kolkata</p>
+                <p>Mumbai</p>
+                <p>Chennai</p>
+                <p>pune</p>
+            </div>
+            <div class="footer_box">
+                <h2>TRENDING LOCATIONS</h2>
+                <p> Bhubaneshwar</p>
+                <p>Hyderabad</p>
+                <p>Chandigarh</p>
+                <p>Nashik</p>
+            </div>
+            <div class="footer_box">
+                <h2>ABOUT US</h2>
+                <p> About OLX Group</p>
+                <p>Careers</p>
+                <p>Contact Us</p>
+                <p>OLXPeople</p>
+            </div>
+            <div class="footer_box">
+                <h2>OLX</h2>
+                <p> Help</p>
+                <p>Legal & Privacy information</p>
+                <p>Blog</p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+        
+     <script>
+      let country= document.getElementById('country');
+      let moving= document.getElementById('moving');
+        let text= document.getElementById('text');
+        let list= document.getElementById('list');
+        let eng_tag=document.getElementById('eng-tag');
+        let language= document.getElementById('language');
+        let moving_1 = document.getElementById('moving_1');
+        let option_box_1 = document.querySelector('option_box_1');
+         let girl_image_id= document.getElementById( 'girl_image_id');
+         let dropdown_id=document.getElementById('dropdown_id');
+         let select_1=document.getElementById('select_1');
+
+        country.addEventListener('click', ()=>{
+            list.classList.toggle('hidden');
+        
+            moving.classList.toggle('rotated');
+        });
+
+      function myfunction(faiza){
+        country.innerHTML= faiza;
+      }
+      
+      language.addEventListener('click', ()=>{
+
+        list_1.classList.toggle('hidden_2');
+        
+        moving_1.classList.toggle('rotated_1');
+        });
+
+
+  
+
+       
+function languageolx(faizaa){
+    language.innerHTML=faizaa;
+      }
+
+     girl_image_id.addEventListener('click', ()=>{
+        dropdown_id.classList.toggle('hidden_3')
+     
+        });
+
+        let  adimage = document.getElementById('adicon2');
+        let ad_1 = document.querySelector('.ads_img2');
+
+        ad_1.addEventListener('click', () => {
+            adimg.style = 'display: none';
+        });
+        let Lode_more_id = document.getElementById('Lode_more_id');
+        let lode_more_products_id = document.getElementById('lode_more_products_id');
+
+
+        Lode_more_id.addEventListener('click', () => {
+            lode_more_products_id.style = 'display:block';
+            Lode_more_id.style = 'display:none'
+        });
+        
+     </script>
+    <body>
+</html>
